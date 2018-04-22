@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Task Data";
+}
+
+<style>
+    .pad {
+        padding-left: 5px;
+    }
+</style>
+
+<h2>@ViewData["Title"]</h2>
+<h3>User Data</h3>
+<table>
+    <thead>
+        <td class="pad">ID</td>
+        <td class="pad">First Name</td>
+        <td class="pad">Last Name</td>
+        <td class="pad">Email</td>
+        <td class="pad">DOB</td>
+        <td class="pad">Age + 20</td>
+    </thead>
+@foreach (var item in ViewData["Users"] as System.Collections.Generic.IEnumerable<Tasks.Controllers.User>) 
+{
+    <tr>
+        <td class="pad">@item.id</td>
+        <td class="pad">@item.firstName</td>
+        <td class="pad">@item.lastName</td>
+        <td class="pad">@item.email</td>
+        <td class="pad">@item.dob.ToString("MM-dd-yyyy")</td>
+        <td class="pad"><b>@item.agePlusTwenty</b></td>
+    </tr>
+}
+</table>
+
+<br>
+<br>
+<h3>Top Colours</h3>
+
+<table>
+    <thead>
+        <td class="pad">Colour</td>
+        <td class="pad">Count</td>
+    </thead>
+@foreach (var item in ViewData["TopColours"] as System.Collections.Generic.IEnumerable<Tasks.Controllers.TopColour>) 
+{
+    <tr>
+        <td class="pad">@item.Color</td>
+        <td class="pad">@item.Amount</td>
+    </tr>
+}
+</table>

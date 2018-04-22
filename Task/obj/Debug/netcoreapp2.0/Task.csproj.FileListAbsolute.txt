@@ -1,0 +1,11 @@
+/Users/Drshockalotz/Projects/Task/Task/bin/Debug/netcoreapp2.0/Task.deps.json
+/Users/Drshockalotz/Projects/Task/Task/bin/Debug/netcoreapp2.0/Task.runtimeconfig.json
+/Users/Drshockalotz/Projects/Task/Task/bin/Debug/netcoreapp2.0/Task.runtimeconfig.dev.json
+/Users/Drshockalotz/Projects/Task/Task/bin/Debug/netcoreapp2.0/Task.dll
+/Users/Drshockalotz/Projects/Task/Task/bin/Debug/netcoreapp2.0/Task.pdb
+/Users/Drshockalotz/Projects/Task/Task/obj/Debug/netcoreapp2.0/Task.csprojResolveAssemblyReference.cache
+/Users/Drshockalotz/Projects/Task/Task/obj/Debug/netcoreapp2.0/Task.csproj.CoreCompileInputs.cache
+/Users/Drshockalotz/Projects/Task/Task/obj/Debug/netcoreapp2.0/Task.AssemblyInfoInputs.cache
+/Users/Drshockalotz/Projects/Task/Task/obj/Debug/netcoreapp2.0/Task.AssemblyInfo.cs
+/Users/Drshockalotz/Projects/Task/Task/obj/Debug/netcoreapp2.0/Task.dll
+/Users/Drshockalotz/Projects/Task/Task/obj/Debug/netcoreapp2.0/Task.pdb
